@@ -1,0 +1,101 @@
+body,h2{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.About{
+    background-image: url('../media/Untitled.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color:black;
+    font-weight: 30px;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;    
+}
+ul{
+    margin-left: 70%;
+    
+}
+li{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 15px;
+    color:black;
+    
+}
+li:hover{
+    color:aqua;
+}
+.callus{
+    font-weight: 15px;
+    color: rgb(12, 9, 9);
+}
+.maintext{
+    padding-left: 20px;
+    margin-top: 20px;   
+}
+.para{
+    color: rgb(58, 13, 50);
+    text-align: center;
+    font-size: 1.7em;
+    /* font-weight: 200px; */
+}
+.maintext div{
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+}
+.maintext button{
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid ghostwhite;
+    
+}
+
+.book{
+    display: grid;
+    color: black;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    background-color: rgb(226, 206, 209);
+}
+#booksid{
+    color:rgb(53, 51, 51);
+    font-size: 2em;
+    background-color:rgb(243, 222, 225);
+    text-align: center;
+}
+.book th{
+    font-size: 1.3em;
+    text-align: center;
+
+}
+table{
+    width: 80%;
+    padding: 1em;
+}
+.book tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.book td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.book td:nth-child(2){
+    justify-self: right;
+}
+.Aboutus{
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(235, 216, 219);
+}
+footer{
+    padding: .25em 1em;
+}
